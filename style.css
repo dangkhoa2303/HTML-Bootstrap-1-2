@@ -1,0 +1,308 @@
+.social {
+    height: 70px;
+    background-color: #bfbcbc;
+}
+.social-media {
+    list-style-type: none;
+    display: flex;
+    padding-left: 50px;
+    margin-bottom: 0px;
+}
+.social-media li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.row {
+    align-items: center;
+    height: 100%;
+}
+.social-media li i {
+    font-size: 1.2em;
+    color: white;
+}
+.social-media li p {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+/* ---------------header */
+.logo h1 {
+    text-align: center;
+}
+.logo h1 a {
+    text-decoration: none;
+}
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.nav li a {
+    color: black;
+}
+/* -----------------img-banner */
+.img-banner {
+    height: 600px;
+    max-width: 100%;
+}
+.img-banner-content h1 {
+    color: white;
+    font-size: 5em;
+    font-weight: bolder;
+}
+.img-banner-content {
+    color: white;
+    font-size: 1.2em;
+    margin-left: 100px;
+}
+.img-click {
+    display: flex;
+}
+.img-click p {
+    border: 1px solid white;
+    width: 200px;
+    height: 70px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-click a {
+    text-decoration: none;
+    color: white;
+}
+.img-click p:hover {
+    background-color: white;
+}
+.img-click p:hover a {
+    color: black;
+}
+/* --------------section */
+.site-section .row {
+    justify-content: center;
+    margin-top: 60px;
+}
+.section-sub-title {
+    text-align: center;
+    color: #bfbcbc;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.our-product p {
+    text-align: center;
+    color: #bfbcbc;
+}
+/* ------------------list-product */
+.px-4 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.px-4 {
+    text-align: center;
+}
+.product-item-click p {
+    border: 1px solid black;
+    margin-right: 10px;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-item-click {
+    display: flex;
+    justify-content: center;
+}
+.px-4 i {
+    color: rgb(193, 141, 8);
+}
+.product-item {
+    margin-bottom: 50px;
+}
+/* --------------notified */
+.get-notification {
+    height: 400px;
+}
+.get-notification h2,p {
+    color: white;
+}
+.get-notification .row {
+    justify-content: center;
+    align-items: center;
+}
+.form input {
+    background-color: none;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+}
+.form {
+    display: flex;
+}
+/*--------------- featured products */
+.section-content p {
+    color: #bfbcbc;
+}
+.section-title {
+    font-weight: bolder;
+    font-size: 4em;
+}
+.section-content {
+    margin-bottom: 50px;
+}
+.product-01-content p {
+    color: black;
+}
+.product-01-content .number {
+    font-size: 10em;
+    color: #bfbcbc;
+}
+.product-01-content {
+    position: relative;
+    top : -200px;
+}
+ .product-01-content .content {
+    position: absolute;
+    top: 0px;
+}
+/* -----------about us */
+.about-us .mb-4 {
+    color: #bfbcbc;
+}
+.about-us .btn-click {
+    width: 125px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: black;
+}
+.btn {
+    color: white;
+}
+.experience {
+    border: 1px solid;
+    background-color: rgb(63, 141, 115);
+    color: white;
+    width: 40%;
+}
+.experience .year {
+    font-size: 3em;
+}
+.experience .caption {
+    text-transform: uppercase;
+}
+.about-us {
+    position: relative;
+}
+.experience {
+    position: absolute;
+    top : 750px;
+    left: 380px;
+}
+/* --------------site-section */
+.site-section-2 {
+    margin-top: 100px;
+}
+.site-section-2 .row {
+    justify-content: center;
+    align-items: center;
+}
+.person .person-content {
+    color: #bfbcbc;
+}
+/*-----------------special-section*/
+.special-section .row {
+    justify-content: center;
+    align-items: center;
+}
+.special-section {
+    height: 600px;
+}
+.special-section .btn-click {
+    width: 200px;
+    height: 70px;
+    border: 1px solid black;
+}
+/* -----------services-section */
+.section-sub-title {
+    font-size: 1em;
+}
+.section-title {
+    font-size: 2em;
+}
+.services-section-content .row {
+    justify-content: center;
+    align-items: center;
+}
+.services-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.services-section-content .title {
+    margin-bottom: 50px;
+}
+.services-section-table {
+    margin: 50px 100px;
+    justify-content: center;
+    align-items: center;
+}
+.services-section-table + p {
+    color: #bfbcbc;
+}
+.services-section-table .learn-more a {
+    text-decoration: none;
+    color: orange;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+/* --------------blog-section */
+.blog-section .row {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px 100px;
+}
+.h-entry h2 a {
+    text-decoration: none;
+    
+}
+.h-entry h2 {
+    font-weight: 400;
+    font-size: 1em;
+}
+.h-entry-link a {
+    text-decoration: none;
+    color: orange;
+}
+/* ---------contact-section */
+.contact-section .row {
+    justify-content: center;
+    align-items: center;
+}
+.contact-section {
+    background-color: #bebaba;
+    padding-bottom: 50px;
+}
+/* --------footer */
+.site-footer .row {
+    justify-content: center;
+    align-items: center;
+}
+.site-footer-information {
+    justify-content: center;
+    align-items: center;
+}
+.site-footer {
+    margin: 50px 0px 100px;
+}
